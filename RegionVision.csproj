@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <AssemblyName>RegionVision</AssemblyName>
+    <RootNamespace>RegionVision</RootNamespace>
+
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <Reference Include="TerrariaServer">
+      <HintPath>/home/yomissayy/777/TerrariaServer.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="TShockAPI">
+      <HintPath>/home/yomissayy/777/TShockAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="OTAPI">
+      <HintPath>/home/yomissayy/777/OTAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="ModFramework">
+      <HintPath>/home/yomissayy/777/ModFramework.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+  </ItemGroup>
+
+</Project>
